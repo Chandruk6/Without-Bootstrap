@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container-fluid{
+    margin: 3% ;
+}
+.box{
+    background:url('image/background\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+}
+input{
+    padding:8px 25px;
+}
+.box-overlay{
+    display: flex;
+   
+}
+.form1{
+    margin-left:4%;
+    margin-top:50px;
+}
+.col-1 input , .col-2 input{
+    width:100%;
+}
+.col-1 , .col-2{  
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.form2{
+    width:35%;
+    margin-left:400px;
+    background-color: rgb(253, 255, 255);
+    margin-top:-90px;margin-bottom: 20px;
+    box-shadow: 1px 5px 1px 1px rgb(100, 99, 99);
+}
+.form2 .row{
+    margin-left: 5%;
+}
+
+.form2 input, .form2 .form-check-label {
+    margin-top:5%;
+}
+button{
+    padding: 10px 25px;
+    margin:5%;
+    background-color: rgb(3, 136, 189);
+    border: none;
+    color: beige;
+}
+
+
+@media (max-width:1200px){
+       
+    .box{
+      height: 150vh;
+    }
+     .box-overlay{
+      height: 150vh;
+      display: block;
+     }
+           
+     .form2{
+      margin-left:20px;
+      margin-top:30px;
+      width:90%;
+      margin-bottom:10px;
+        }
+        .col-1 input ,.col-2 input{
+            width:80%;
+            padding: 10px;
+          }
+        .col-6 input{
+          width:94%;
+          padding: 10px;
+        }
+
+}
